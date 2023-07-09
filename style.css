@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height:100vh;
+    background:linear-gradient(130deg,#8367c4,#d161ff);
+}
+.clock{
+    width:550px;
+    height:150px;
+    transform:translate(-50%,-50%); 
+    position:absolute;
+    top:50%;
+    left:50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.clock div{
+    position: relative;
+    background:#fff;
+    width:150px;
+    height: 150px;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    font-family: sans-serif;
+    font-size: 60px;
+    font-weight: 600;
+    color:#202020;
+    border-radius:5px;
+    box-shadow: 0 15px 30px rgba(0,0,0,0.3);
+    background-color: #ffff;
+}
+.clock span{
+    font-weight: 600;
+    font-size: 60px;
+    color:#fff;
+}
